@@ -1,6 +1,6 @@
 # C++
 This repository is for learning how to write in C++.
-Written by Echo for CS330 at Simmon University.
+Written by Echo for CS330.
 
 # Overview & Setup
 
