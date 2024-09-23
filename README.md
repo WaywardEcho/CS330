@@ -14,7 +14,7 @@ As of right now, I'll be referencing W3Schools and cplusplus.
 I already had [Visual Studio Code](https://code.visualstudio.com/download) installed, so I decided to stick with it since it had extensions that supported running C++. I installed the extensions specifically related to C++ and then followed the instructions that VS Code gave that allowed the program to run C++. I had some difficulty with the terminal part of the instructions, but was able to follow along with a [YouTube video](https://www.youtube.com/watch?v=Qw5qjRNlC-Y) that Sawyer recommended.	There wasn't really a recommended programming environment that I could find made specifically for C++, but since I use Windows and already use VS Code, all of that together led me to stick with using VS Code.
 
 ### Running Programs
-If using VS Code, the program (VS Code) needs to be opened in it's developer mode. From there, have a file open and then run/run and debug like any other language. For Windows, if there are two versions (GDB/LLDB or Windows), use the one labelled Windows. After, it may ask for an exe, make sure to run with it.
+If using VS Code, the program (VS Code) needs to be opened in it's developer mode. From there, have a file open and then run/run and debug like any other language. For Windows, there are several options. Be sure to use the one labeled g++. After, it may ask for an exe, make sure to run with it.
 
 ## Hello World
 The code below is an example of a C++ Hello World program. Copy it to see if you're able to run C++.
