@@ -56,7 +56,7 @@ Comparison: == != > < >= <= <br/>
 Logical: && || ! <br/>
 
 ### Assignment & Operations
-Mixed type operations are allowed for number variables. They typically turn into floats or doubles depending on the equation. Identifier names and operator symbols are bound at run time. This means they can be overwritten. C++ is heavily dependant on importint libraries for seemingly simple things such as Strings.
+Mixed type operations are allowed for number variables. They typically turn into floats or doubles depending on the equation. Identifier names and operator symbols are bound at run time. This means they can be overwritten. C++ is heavily dependant on importint libraries for seemingly simple things such as Strings and printing to the terminal.
 
 ## Sources:
 https://en.wikipedia.org/wiki/C%2B%2B <br/>
