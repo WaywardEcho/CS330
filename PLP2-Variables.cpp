@@ -13,7 +13,7 @@ int main(){
 
     char grade = 'A';
 
-    string hello = "Hello WAorld!";
+    string hello = "Hello World!";
     bool pass = true;
 
     cout << num;
