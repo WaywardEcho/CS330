@@ -36,10 +36,10 @@ Use a double forward-slash "//".
 C++ typically names variables in the Camel Case standard (myVar). They are case sensitive and must begin with a letter or an underscore. Adding an int and a float results in a new float. Lists cannot have mixed variable types. C++ has 97 keywords that can't be used as variable or method names. Variable names are case sensitive and must begin with a letter or an underscore. No special symbols are allowed. The camel case is optional, but it a strong convention from the community. C++ is a statically, strongly typed and explicitly typed language. It's variables are immutable.
 
 ### Operators
-Arithmetic: +-*/%++-- 
-Assignment: =,+=,-=,*=,/=,%=,&=,|=,^=,>>=,<<= 
-Comparison: ==,!=,>,<,>=,<= 
-Logical: &&, ||, !
+Arithmetic: +-*/%++-- <br/>
+Assignment: =,+=,-=,*=,/=,%=,&=,|=,^=,>>=,<<= <br/>
+Comparison: ==,!=,>,<,>=,<= <br/>
+Logical: &&, ||, ! <br/>
 
 8. Are mixed type operations allowed? If so, how are they accommodated?
 Mixed operations are allowed for number variables. They typically turn into floats or doubles depending on the equation.
