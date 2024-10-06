@@ -33,23 +33,14 @@ int main()
 Use a double forward-slash "//".
 
 ## Variables - Names, Types, and Binding
-C++ typically names variables in the Camel Case standard (myVar). They are case sensitive and must begin with a letter or an underscore. Adding an int and a float results in a new float. Lists cannot have mixed variable types.
+C++ typically names variables in the Camel Case standard (myVar). They are case sensitive and must begin with a letter or an underscore. Adding an int and a float results in a new float. Lists cannot have mixed variable types. C++ has 97 keywords that can't be used as variable or method names. Variable names are case sensitive and must begin with a letter or an underscore. No special symbols are allowed. The camel case is optional, but it a strong convention from the community. C++ is a statically, strongly typed and explicitly typed language. It's variables are immutable.
 
-### Keywords
-C++ has 97 keywords.
-2. What are the naming requirements for variables in your language? What about naming conventions?  Are those enforced by the compiler/interpreter, or just 
-standards in the community?
-They are case sensitive and must begin with a letter or an underscore. No special symbols are allowed. The camel case is optional, but it a strong convention from the community.
-3. Is your language statically or dynamically typed?
-Statically typed.
-4. Strongly typed or weakly typed?
-Strongly typed.
-5. Explicitly typed or implicitly typed?
-Explicitly typed.
-6. Are some variables mutable while others are immutable?
-Variables are immutable.
-7. What are the operators available for each data type?
-Arithmetic: +-*/%++--. Assignment: =,+=,-=,*=,/=,%=,&=,|=,^=,>>=,<<=. Comparison: ==,!=,>,<,>=,<=. Logical: &&, ||, !.
+### Operators
+Arithmetic: +-*/%++-- 
+Assignment: =,+=,-=,*=,/=,%=,&=,|=,^=,>>=,<<= 
+Comparison: ==,!=,>,<,>=,<= 
+Logical: &&, ||, !
+
 8. Are mixed type operations allowed? If so, how are they accommodated?
 Mixed operations are allowed for number variables. They typically turn into floats or doubles depending on the equation.
 9. At what point are identifier names and operator symbols bound in your language?
