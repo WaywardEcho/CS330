@@ -58,6 +58,15 @@ Logical: && || ! <br/>
 ### Assignment & Operations
 Mixed type operations are allowed for number variables. They typically turn into floats or doubles depending on the equation. Identifier names and operator symbols are bound at run time. This means they can be overwritten. C++ is heavily dependant on importint libraries for seemingly simple things such as Strings and printing to the terminal.
 
+## Functions
+The syntax of a function is it's return type, its name, and any parameters it may have in parentheses.
+```
+int multiply(int x, int y){
+ product = x * y;
+ return product;
+}
+```
+
 ## Sources:
 https://en.wikipedia.org/wiki/C%2B%2B <br/>
 https://www.simplilearn.com/c-plus-plus-programming-for-beginners-article <br/>
