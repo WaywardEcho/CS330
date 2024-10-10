@@ -18,7 +18,6 @@ If using VS Code, the program (VS Code) needs to be opened in it's developer mod
 
 ## Hello World
 The code below is an example of a C++ Hello World program. Copy it to see if you're able to run C++.
-
 ```
 //Code is from https://en.wikibooks.org/wiki/C%2B%2B_Programming/Examples/Hello_world
 // 'Hello World!' program 
@@ -29,6 +28,7 @@ int main()
   return 0;
 }
 ```
+
 ### Comments
 Use a double forward-slash "//".
 
@@ -59,13 +59,16 @@ Logical: && || ! <br/>
 Mixed type operations are allowed for number variables. They typically turn into floats or doubles depending on the equation. Identifier names and operator symbols are bound at run time. This means they can be overwritten. C++ is heavily dependant on importint libraries for seemingly simple things such as Strings and printing to the terminal.
 
 ## Functions
-The syntax of a function is it's return type, its name, and any parameters it may have in parentheses.
+The syntax of a function is it's return type, its name, and any parameters it may have in parentheses. Parameters can be of any data type and as many as needed, just that they match the argument of the function. In C++, functions must be declared prior to when they are executed. C++ can use recursive functions, which is when a function calls itself inside the function. Functions can normally only return one value. To get around this limitation, systems such as structures and arrays are used. 
 ```
 int multiply(int x, int y){
  product = x * y;
  return product;
 }
 ```
+
+## Variables, in regards to functions
+Values passed through to a method are typically pass by value, but you could pass a reference if you specify. Arguments, parameters, and variables are stored on the stack, while references are stored on the heap. C++ is statically scoped, meaning it can only reference variables in that method, values that are passed through, or that are globally accessible. Global variables can be permanently altered if used, which is why they tend to not be used.
 
 ## Sources:
 https://en.wikipedia.org/wiki/C%2B%2B <br/>
@@ -74,3 +77,5 @@ https://www.w3schools.com/cpp/default.asp <br/>
 https://www.youtube.com/watch?v=Qw5qjRNlC-Y <br/>
 https://en.wikibooks.org/wiki/C%2B%2B_Programming/Examples/Hello_world <br />
 https://cplusplus.com/doc/tutorial/
+https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/
+https://endjin.com/blog/2022/07/understanding-the-stack-and-heap-in-csharp-dotnet
