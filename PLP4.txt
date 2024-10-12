@@ -1,0 +1,37 @@
+1. What are the boolean values in your language? (e.g., True and False, true and false, 1, and 0, 
+etc.)
+	C++ declares Booleans as true/false but can take in the value as 1 (true) and 0 (false).
+
+2. What types of conditional statements are available in your language?  (if/else, if/then/else, 
+if/elseif/else).  Does your language allow for statements other than “if” (for example, Perl has 
+an “unless” statement, which does the opposite of “if”!)
+	C++ has if/else if/else or switch for its conditional statements.
+
+3. How does your language delimit code blocks under each condition in selection control statements?
+	Unlike other programming languages (such as Python), C++ does not care about spacing or indentation. Indentation is more a common practice for legibility.
+
+4. Does your language use short-circuit evaluation?  Include an example of the short-circuit logic 
+working or not working (or both, if your language is like Java and supports both!)
+	C++ can in fact short circuit. When doing an AND (&&) comparison, if the first check fails, the other side of the check is not even tried since the first half failed.
+	EX: a = 1 b = 1 c = 3
+	if (a==c && a==b)
+	This is also true if we do and OR (||) comparison and the check does complete the first time.
+	EX: a = 1 b = 1 c = 3
+	if (a==b || a==c)
+
+5. How does your programming language deal with the “dangling else” problem? 
+	The dangling else problem is only an issue if there is an if statement inside of an if statement. The else statement gets confused which if statement that it belongs to. To circumvent this issue, always make sure to use curly braces (despite not being required) and use proper indentation to increase legibility.
+
+6. If your language supports switch or case statements, do you have to use “break” to get out of 
+them?  Can you use “continue” to have all of the conditions evaluated?
+	You do have to use break to get out of the switch statements. There is continue as well, which would just start the next iteration of the loop. 
+
+7. Does your language include multiple types of loops (while, do/while, for, foreach)?  If so, what 
+are they and how do they differ from each other?
+	C++ had while, do/while, for, and foreach loops. While loops while a condition is true. Do/while runs through the first iteration of the code, then will continue to iterate while the condition is true. A for loop is meant to loop a specific number of times (known ahead of time. A foreach loop is used to iterate in arrays and other  data structures for each item.
+
+8. Are loop code block variables treated differently than function code blocks?
+	Variables in loop code blocks only exist inside the loop unless they were declared beforehand outside of the loop. Variables inside functions can be returned, but only exist inside the function if they're not passed through.
+
+https://www.geeksforgeeks.org/short-circuiting-in-c-and-linux/
+https://www.cs.drexel.edu/~popyack/Courses/GovSchool/2005/Sp04/lectures/08.2_nested_conditionals/DanglingElse.html
