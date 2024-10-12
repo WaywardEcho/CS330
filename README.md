@@ -67,8 +67,40 @@ int multiply(int x, int y){
 }
 ```
 
-## Variables, in regards to functions
+### Variables, in regards to functions
 Values passed through to a method are typically pass by value, but you could pass a reference if you specify. Arguments, parameters, and variables are stored on the stack, while references are stored on the heap. C++ is statically scoped, meaning it can only reference variables in that method, values that are passed through, or that are globally accessible. Global variables can be permanently altered if used, which is why they tend to not be used.
+
+## Conditional Statements
+C++ uses the standard conditional statements of if/elseif/else. Unfortunately, that means it can fall victim to the "dangling else". The dangling else problem is only an issue if there is an if statement inside of an if statement. The else statement gets confused which if statement that it belongs to. To circumvent this issue, always make sure to use curly braces (despite not being required) and use proper indentation. Unlike other programming languages (such as Python), C++ does not care about spacing or indentation for functionality. Indentation is more a common practice for legibility.
+
+### Booleans
+C++ declares Booleans as true/false but can take in the value as 1 (true) and 0 (false).
+
+### Short-Circuiting
+C++ can in fact short circuit. When doing an AND (&&) comparison, if the first check fails, the other side of the check is not even tried since the first half failed.
+```
+int a = 1;
+int b = 1;
+int c = 3;
+if (a==c && a==b){}
+```
+
+This is also true if we do and OR (||) comparison and the check does complete the first time.
+```
+int a = 1;
+int b = 1;
+int c = 3;
+if (a==b || a==c){}
+```
+
+## Loops
+C++ has while, do/while, for, and foreach loops. While loops while a condition is true. Do/while runs through the first iteration of the code, then will continue to iterate while the condition is true. A for loop is meant to loop a specific number of times (known ahead of time. A foreach loop is used to iterate in arrays and other data structures for each item.
+
+### Variables, in regards to loops
+Variables in loop code blocks only exist inside the loop unless they were declared beforehand outside of the loop. Variables inside functions can be returned, but only exist inside the function if they're not passed through.
+
+### Break/Continue
+In switch/case statements, you do have to use break to get out of the switch statements. There is the term continue as well, which would just start the next iteration of the loop. 
 
 ## Sources:
 https://en.wikipedia.org/wiki/C%2B%2B <br/>
@@ -79,3 +111,5 @@ https://en.wikibooks.org/wiki/C%2B%2B_Programming/Examples/Hello_world <br />
 https://cplusplus.com/doc/tutorial/
 https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/
 https://endjin.com/blog/2022/07/understanding-the-stack-and-heap-in-csharp-dotnet
+https://www.geeksforgeeks.org/short-circuiting-in-c-and-linux/
+https://www.cs.drexel.edu/~popyack/Courses/GovSchool/2005/Sp04/lectures/08.2_nested_conditionals/DanglingElse.html
