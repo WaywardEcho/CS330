@@ -1,22 +1,25 @@
 1. What is the name of your language?
 	C++
+
 2. When/where was it created, and by whom?  Was it written to address a particular problem or 
 need?
 	C++ was created to be a general purpose programming language in 1985. It was made by Danish computer scientist Bjarne Stroustrup. It was initially made as an extension of C.
-3. What types of programming is your language primarily used for (ex: web sites, video games, 
-mobile devices, parsing, etc.)?  If your language is multi-purpose, provide some examples of 
-different projects it's been used for. 
+
+3. What types of programming is your language primarily used for (ex: web sites, video games, mobile devices, parsing, etc.)?  If your language is multi-purpose, provide some examples of different projects it's been used for. 
 	C++ is used in a lot of types of programs. This is such as search engines, OSes, game and film productions because of its high speed.
+
 4. Where will you get information about this language when it's time to start programming in it? 
 	W3Schools
 
 1. What did you need to do to install the language?
 	I already had VS Code installed, so I installed the extensions specifically related to C++ and then followed the instructions that VS Code gave that allowed the program to run C++. I had some difficulty with the terminal part of the instructions, but was able to follow along with a YouTube video that Sawyer recommended. Link: https://www.youtube.com/watch?v=Qw5qjRNlC-Y 
-2. Does this language come with a recommended programming environment?  What is it?  If not, 
-how did you pick the one that you'll be using?
-	There wasn't really a recommended one specifically for C++, but since I use Windows and already use VS Code, all of that together led me to stick with using VS Code.  
+
+2. Does this language come with a recommended programming environment?  What is it?  If not, how did you pick the one that you'll be using?
+	There wasn't really a recommended one specifically for C++, but since I use Windows and already use VS Code, all of that together led me to stick with using VS Code.
+
 3. How do you run programs in that language? 
 	If using VS Code, the program (VS Code) needs to be opened in it's developer mode. From there, have a file open and then run/run and debug like any other language. For Windows, if there are two versions, use the one labelled Windows. After, it may ask for an exe, make sure to run with it.
+
 4. How do you write comments in your language?
 	Using a double forward-slash "//"
 
