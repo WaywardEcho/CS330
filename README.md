@@ -102,6 +102,9 @@ Variables in loop code blocks only exist inside the loop unless they were declar
 ### Break/Continue
 In switch/case statements, you do have to use break to get out of the switch statements. There is the term continue as well, which would just start the next iteration of the loop. 
 
+## Classes & Inheritance
+C++ is a very flexiable language and can be used for object-oriented programming. It also supports structs. It sticks to the C++ standard conventions of using camel casing. Other languages like Java and Python have built-in functions to transform various data into strings. C++ can do the same, only if you import <string>, which includes a function called to_string(). C++ does support inheritance. It can do both multi-level inheritance and multiple inheritance. To overload a method, just reference the function and make the changes in the child class. Classes function similarly to other popular languages, they just use a more unique structure.
+
 ## Sources:
 https://en.wikipedia.org/wiki/C%2B%2B <br/>
 https://www.simplilearn.com/c-plus-plus-programming-for-beginners-article <br/>
