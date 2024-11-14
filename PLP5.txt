@@ -11,7 +11,7 @@
 	C++ does support inheritance. It can do both multi-level inheritance and multiple inheritance.
 
 4. If there is inheritance, how does your language deal with overloading method names and resolving those calls? 
-	Just reference the function and make the changes in the child class. Same as what Python.
+	Just reference the function and make the changes in the child class. Same as with Python.
 	
 5. Is there anything else that’s important to know about objects and inheritance in your language? 
 	There's nothing too different from what we've covered with Java and Python, just that the structure of a class is different.
