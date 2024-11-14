@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include <Person.h>
+#include "Person.h"
+#pragma once
 
 class Student: public Person {
     public:

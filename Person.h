@@ -1,12 +1,13 @@
 #include <iostream>
 #include <string>
 using namespace std;
+#pragma once
 
 class Person {
-    public:
-        string name;
-        int age;
+    string name;
+    int age;
 
+    public:
         string getName(){
             return name;
         }
